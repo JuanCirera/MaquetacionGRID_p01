@@ -1,6 +1,6 @@
 # Practica 1 - Maquetación con GRID
 
-Proyecto para practicar la maquetación por filas para posicionar elementos en bloque en una sola fila.
+Proyecto para practicar la maquetación por filas para posicionar elementos en bloque uno al lado del otro usando celdas con el layout grid.
 
 ## Contenido
 
