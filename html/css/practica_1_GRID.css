@@ -1,0 +1,167 @@
+
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+/* Reseteo esto para que quede menor la navbar */
+ul{
+    padding: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+header, main, footer{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    text-align: center;
+    padding: 2%;
+    border-bottom: 1px solid black;
+    margin-bottom: 2%;
+    font-weight: 700;
+}
+
+header h2{
+    color: #007ACC;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    /* grid-template-rows: 60% 60%; */
+}
+
+nav{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding: 2%;
+    overflow-y: auto;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+nav li{
+    margin-bottom: 15%;
+}
+
+#img1{
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+
+#img2{
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+}
+
+#img3{
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+}
+
+#img4{
+    grid-column: 3 / 4;
+    grid-row: 2 / 2;
+}
+
+#img5{
+    grid-column: 4 / 5;
+    grid-row: 2 / 2;
+}
+
+nav a:link{
+    color: cadetblue;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:blue;
+}
+
+nav a:visited:hover{
+    color: blue;
+}
+
+nav a:visited{
+    color: cadetblue;
+}
+
+main{
+    font-weight: 600;
+}
+
+figure{
+    /* width: 100%; */
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 5%;
+    padding: 5%;
+    padding-bottom: 5%;
+    overflow-y: auto;
+    margin: 1%;
+}
+
+figure img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+figure figcaption{
+    padding-top: 10%;
+    font-size: 1.3em;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 25% 65% 10%; 
+    padding: 2%;
+    border-top: 1px solid black;
+    margin-top: 5%;
+    font-weight: 700;
+}
+
+footer address{
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
+}
+
+#footerCenter{
+    grid-column: 2 / 3;
+    grid-row: 1 / 1;
+}
+
+#footerRight{
+    grid-column: 3 / 4;
+    grid-row: 1 / 1;
+}
+
+footer a{
+    font-size: 1.5em;
+}
+
+footer a:link{
+    color: cadetblue;
+}
+
+footer a:hover{
+    color:blue;
+}
+
+footer a:visited:hover{
+    color: blue;
+}
+
+footer a:visited{
+    color: cadetblue;
+}
+
